@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* UTILTIES */
+
+.text-color{
+    color: #f4623a;
+}
+
+.text-dark{
+    color: #000;
+}
+
+/* MAIN STYLES */
+.title{
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+.main{
+    height: 100vh;
+    background-color: #000;
+    background-image: url(./img/image003.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* BUTTONS */
+.btn-sub{
+    background-color: #f4623a;
+    color: #fff;
+    transition: background-color .3s;
+    outline: none;
+}
+
+.btn-sub:hover{
+    background-color: #f2481a;
+    color: #fff;
+}
+
+.btn-find{
+    background-color: transparent;
+    color: #fff;
+    border: 1px #fff solid;
+    transition: all .3s;
+}
+
+.btn-find:hover{
+    background-color: #f4623a;
+    color: #fff;
+    border: 1px #f4623a solid;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+    .title{
+        font-size: 3rem;
+    }
+    .desc{
+        font-size: 80%;
+    }
+
+}
